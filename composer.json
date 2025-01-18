@@ -13,7 +13,7 @@
             "email": "mehedifci907@gmail.com"
         }
     ],
-    "license": "BitBytePlay",
+    "license": "MIT",
     "require": {},
     "require-dev": {
         "pestphp/pest": "^2.36",
