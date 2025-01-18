@@ -2,6 +2,8 @@
     "name": "mhshuvo/hello",
     "description": "Simple PHP hello world package",
     "type": "library", 
+    "minimum-stability": "beta",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Mhshuvo\\Hello\\": "src/"
