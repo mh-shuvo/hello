@@ -10,5 +10,10 @@ class Api implements ApiInterface{
     public function render(){
         return $this->getData();
     }
+    public function getFlightsInJson(){
+        $fileContents = file_get_contents(__DIR__."/data/flights.json");
+        $flights = json_decode($fileContents,true);
+        return $flights;
+    }
 
 }
