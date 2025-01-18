@@ -1,7 +1,7 @@
 {
     "name": "mhshuvo/hello",
     "description": "Simple PHP hello world package",
-    "type": "composer-plugin",
+    "type": "library", 
     "autoload": {
         "psr-4": {
             "Mhshuvo\\Hello\\": "src/"
@@ -13,6 +13,7 @@
             "email": "mehedifci907@gmail.com"
         }
     ],
+    "require": {},
     "require-dev": {
         "pestphp/pest": "^2.36",
         "mockery/mockery": "^1.6"
