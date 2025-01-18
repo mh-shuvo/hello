@@ -3,7 +3,7 @@
     "description": "Simple PHP hello world package",
     "type": "library", 
     "minimum-stability": "beta",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Mhshuvo\\Hello\\": "src/"
